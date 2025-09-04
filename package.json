@@ -1,0 +1,28 @@
+{
+  "name": "code-quality-ex2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:watch": "jest --watch --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devark28/code-quality-ex2"
+  },
+  "author": "devark28 (Bruce Emmanuel SHIMWA)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devark28/code-quality-ex2/issues"
+  },
+  "homepage": "https://github.com/devark28/code-quality-ex2#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.21.2",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.20.2"
+  }
+}
