@@ -1,15 +1,18 @@
-import {flattenNestedArray} from "../flatten-nested-array";
+import { flattenNestedArray, _flattenNestedArray } from "../flatten-nested-array";
 
 describe("Flatten nested arrays", () => {
   test("Flattens a single level nested array", () => {
     expect(flattenNestedArray([1, [2, 3], 4])).toEqual([1, 2, 3, 4]);
+    expect(_flattenNestedArray([1, [2, 3], 4])).toEqual([1, 2, 3, 4]);
   });
 
   test("Flattens multiple nested levels", () => {
     expect(flattenNestedArray([1, [2, [3, [4]]]])).toEqual([1, 2, 3, 4]);
+    expect(_flattenNestedArray([1, [2, [3, [4]]]])).toEqual([1, 2, 3, 4]);
   });
 
   test("Does nothing to an already flat array", () => {
     expect(flattenNestedArray([1, 2, 3])).toEqual([1, 2, 3]);
+    expect(_flattenNestedArray([1, 2, 3])).toEqual([1, 2, 3]);
   });
 });

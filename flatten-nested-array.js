@@ -8,6 +8,18 @@ import {countArrayNestingLevels} from "./count-array-nesting-levels.js";
  * @return {T[]}
  */
 export function flattenNestedArray(array) {
+  return array.flat(Infinity);
+}
+
+
+/**
+ * Flatten nested arrays
+ *
+ * @template T
+ * @param {T[]} array
+ * @return {T[]}
+ */
+export function _flattenNestedArray(array) {
   const levelsCount = countArrayNestingLevels(array);
   let resultingArray = array;
   for (let i = 0; i < levelsCount; i++) {
