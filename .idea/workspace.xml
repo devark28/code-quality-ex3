@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78afd19d-4358-4f95-ab07-47a3e8da4103" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dedup-items.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/is-prime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/dedup-items.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/is-prime.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/sum.test.js" afterDir="false" />
+    <list default="true" id="78afd19d-4358-4f95-ab07-47a3e8da4103" name="Changes" comment="upd: complete exercise 3 subquestion 2, 3, and 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,25 +23,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Jest.Tests in tests/.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/pc/Documents/code-quality-ex3/tests",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/home/pc/Documents/code-quality-ex3/node_modules/jest",
-    "nodejs_package_manager_path": "yarn",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Jest.Tests in tests/.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pc/Documents/code-quality-ex3/tests&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/home/pc/Documents/code-quality-ex3/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests" />
@@ -60,6 +54,7 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="open code-quality-ex2" />
+      <command value="open ottri-backend" />
     </option>
   </component>
   <component name="RunManager">
@@ -67,7 +62,6 @@
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
-      <jest-options value="--watch" />
       <envs />
       <scope-kind value="DIRECTORY" />
       <test-directory value="$PROJECT_DIR$/tests" />
@@ -94,11 +88,28 @@
       <option name="presentableId" value="Default" />
       <updated>1756991326175</updated>
       <workItem from="1756991328293" duration="125000" />
-      <workItem from="1756991850635" duration="3904000" />
+      <workItem from="1756991850635" duration="4361000" />
+      <workItem from="1756997588531" duration="18000" />
+      <workItem from="1756997786491" duration="116000" />
+      <workItem from="1756998491072" duration="37000" />
+      <workItem from="1757077416742" duration="438000" />
     </task>
+    <task id="LOCAL-00001" summary="upd: complete exercise 3 subquestion 2, 3, and 4">
+      <option name="closed" value="true" />
+      <created>1756996111580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756996111580</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upd: complete exercise 3 subquestion 2, 3, and 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd: complete exercise 3 subquestion 2, 3, and 4" />
   </component>
 </project>
